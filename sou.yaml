@@ -48,3 +48,9 @@ spec:
           emptyDir: {}
       restartPolicy: Always
       imagePullPolicy: Always
+
+---
+kind: apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name:  name
